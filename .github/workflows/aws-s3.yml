@@ -19,4 +19,4 @@ jobs:
       - name: Build project
         run: npm install && npm run build
       - name: Deploy com envio para AWS S3
-        run: aws s3 sync ./build/ s3://hackathon-3 --delete
+        run: aws s3 sync ./build/ s3://it-talent-hackathon3 --delete
